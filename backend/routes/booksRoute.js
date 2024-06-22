@@ -104,12 +104,12 @@ router.delete('/:id', async (request, response) => {
     response.status(500).send({ message: error.message });
   }
 });
-// Route for Search a book
-router.get('/:title', async (request, response) => {
+// Route for Search books
+router.get('/search/:title', async (request, response) => {
   try {
     const { title } = request.params;
 
-    const book = await Book.findByTitle(title);
+    const book = await Book.find({title});
 
     return response.status(200).json(book);
   } catch (error) {
