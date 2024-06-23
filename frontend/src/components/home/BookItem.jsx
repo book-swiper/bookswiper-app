@@ -23,7 +23,7 @@ export default function BookItem({ Book }) {
               {Book.author}
             </p>
           </div>
-    {/*}      <p className='text-sm text-gray-600 line-clamp-2'>
+             <p className='text-sm text-gray-600 line-clamp-2'>
             {Book.publishYear}
           </p>
           <p className='text-slate-500 mt-2 font-semibold '>
@@ -48,5 +48,5 @@ export default function BookItem({ Book }) {
         </div>
       </Link>
     </div>
-  );*/}
+    );
 }

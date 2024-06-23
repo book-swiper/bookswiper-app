@@ -7,6 +7,8 @@ import { BsInfoCircle } from 'react-icons/bs';
 import { MdOutlineAddBox, MdOutlineDelete } from 'react-icons/md';
 import BooksTable from '../components/home/BooksTable';
 import BooksCard from '../components/home/BooksCard';
+import BookItem from '../components/home/BookItem';
+
 
 const Home = () => {
   const [books, setBooks] = useState([]);

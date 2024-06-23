@@ -10,7 +10,7 @@ export default function Search() {
     author: false,
     publishYear: false,
     //offer: false,
-    sort: 'created_at',
+    sort: 'title',
     order: 'desc',
   });
 
